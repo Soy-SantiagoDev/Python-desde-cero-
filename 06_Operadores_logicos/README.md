@@ -1,8 +1,10 @@
-# 🧠 Capítulo 6 - Operadores Lógicos
+# 🤝 Capítulo 6 - Operador Lógico `and`
 
-En este capítulo aprenderás a combinar varias condiciones utilizando los operadores lógicos de Python.
+En este capítulo aprenderás a utilizar el operador lógico `and`.
 
-Estos operadores permiten crear condiciones más completas y tomar decisiones más precisas dentro de nuestros programas.
+Este operador permite comprobar que **dos o más condiciones sean verdaderas al mismo tiempo**.
+
+Es muy utilizado cuando un programa necesita verificar varios requisitos antes de tomar una decisión.
 
 ---
 
@@ -10,11 +12,10 @@ Estos operadores permiten crear condiciones más completas y tomar decisiones m�
 
 Al finalizar este capítulo podrás:
 
-- ✅ Utilizar el operador `and`.
-- ✅ Utilizar el operador `or`.
-- ✅ Utilizar el operador `not`.
-- ✅ Combinar varias condiciones.
-- ✅ Crear programas con decisiones más avanzadas.
+- ✅ Comprender cómo funciona el operador `and`.
+- ✅ Combinar dos condiciones.
+- ✅ Crear programas que validen varios requisitos.
+- ✅ Utilizar `and` junto con `if`.
 
 ---
 
@@ -22,34 +23,20 @@ Al finalizar este capítulo podrás:
 
 | Archivo | Descripción |
 |---------|-------------|
-| `operador.py` | Ejemplos de operadores lógicos. |
-| `Ejercicios.py` | Actividades para practicar. |
+| `operador.py` | Introducción al operador `and`. |
+| `Ejercicios.py` | Ejercicios para practicar. |
 | `Soluciones.py` | Solución de los ejercicios. |
 | `DesafioFinal.py` | Reto para aplicar lo aprendido. |
 
 ---
 
-# 🤔 ¿Qué son los operadores lógicos?
+# 🤔 ¿Qué hace el operador `and`?
 
-Los operadores lógicos permiten unir dos o más condiciones.
+El operador `and` une dos condiciones.
 
-El resultado siempre será `True` (Verdadero) o `False` (Falso).
+Para que el resultado sea **verdadero**, ambas condiciones deben cumplirse.
 
-Son muy utilizados junto con las estructuras `if`.
-
----
-
-# 📚 Operadores lógicos
-
-| Operador | Significado |
-|----------|-------------|
-| `and` | Ambas condiciones deben cumplirse. |
-| `or` | Basta con que una condición sea verdadera. |
-| `not` | Invierte el resultado de una condición. |
-
----
-
-# 📌 Operador `and`
+Por ejemplo:
 
 ```python
 edad = 25
@@ -58,41 +45,45 @@ if edad >= 18 and edad <= 60:
     print("Puedes participar.")
 ```
 
-En este caso, las dos condiciones deben cumplirse al mismo tiempo.
+En este ejemplo:
+
+- La edad debe ser mayor o igual a 18.
+- La edad debe ser menor o igual a 60.
+
+Si alguna condición no se cumple, el programa ejecutará el bloque `else`.
 
 ---
 
-# 📌 Operador `or`
+# 💻 Ejemplo
 
 ```python
-edad = 70
+edad = int(input("¿Cuántos años tienes? "))
 
-if edad < 18 or edad > 60:
-    print("Grupo especial.")
+if edad >= 18 and edad <= 60:
+    print("Puedes participar.")
+else:
+    print("No puedes participar.")
 ```
-
-Con `or`, basta con que una condición sea verdadera.
 
 ---
 
-# 📌 Operador `not`
+# 📌 ¿Cuándo utilizar `and`?
 
-```python
-edad = 15
+Utiliza `and` cuando todas las condiciones deban cumplirse.
 
-if not edad >= 18:
-    print("Eres menor de edad.")
-```
+Ejemplos:
 
-`not` invierte el resultado de la condición.
+- Tener entre 18 y 60 años.
+- Obtener una nota entre 70 y 100.
+- Tener una temperatura entre 20 y 30 grados.
 
 ---
 
 # 💻 Ejercicios
 
-Resuelve los ejercicios antes de consultar las soluciones.
+Antes de consultar las soluciones, intenta resolver todos los ejercicios por tu cuenta.
 
-La práctica constante es la mejor forma de aprender programación.
+La práctica es la mejor forma de aprender programación.
 
 ---
 
@@ -100,16 +91,16 @@ La práctica constante es la mejor forma de aprender programación.
 
 En este capítulo aprendiste:
 
-- ✔ Cómo funciona `and`.
-- ✔ Cómo funciona `or`.
-- ✔ Cómo funciona `not`.
-- ✔ Cómo combinar varias condiciones.
+- ✔ Qué es el operador lógico `and`.
+- ✔ Cómo combinar dos condiciones.
+- ✔ Cómo utilizar `and` junto con `if`.
+- ✔ Cómo validar rangos de valores.
 
 ---
 
 # 🚀 Siguiente capítulo
 
-En el siguiente capítulo aprenderás a crear condicionales anidadas utilizando varios bloques `if`.
+En el siguiente capítulo aprenderás el operador lógico `or`.
 
 ---
 
