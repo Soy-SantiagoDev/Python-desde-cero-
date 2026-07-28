@@ -62,4 +62,4 @@ Aprende Python desde cero con ejemplos simples, ejercicios y pequeños proyectos
 Clona el proyecto
 
 ```bash
-git clone ...
+git clone https://github.com/Soy-SantiagoDev/Python-desde-cero-.git
