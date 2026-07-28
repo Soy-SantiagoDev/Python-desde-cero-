@@ -1,4 +1,15 @@
-# Operadores de comparación en Python
+# =====================================
+# Comparadores y Condiciones
+# =====================================
+# Los operadores de comparación permiten
+# comparar dos valores.
+#
+# El resultado de una comparación puede
+# ser True (Verdadero) o False (Falso).
+# =====================================
+
+# Operadores de comparación
+#
 # ==  Igual que
 # !=  Diferente de
 # >   Mayor que
@@ -6,16 +17,14 @@
 # >=  Mayor o igual que
 # <=  Menor o igual que
 
-edad= int(input("¿cuantos años tienes?"))
+edad = int(input("¿Cuántos años tienes? "))
 
 if edad == 18:
-    print("tienes exactamente 18 años ")
-
-if edad >18:
-    print("eres mayor de edad")
-
-if edad <18:
-    print("eres menor de edad")
+    print("Tienes exactamente 18 años.")
+elif edad > 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
 
 if edad != 18:
-    print("no tienes 18 años ")
+    print("No tienes exactamente 18 años.")
