@@ -1,8 +1,20 @@
-# Se crea una variable llamada 'nombre' y se le asigna el texto "Ana"
+# -----------------------------------------
+# Variables
+# -----------------------------------------
+# Una variable es un espacio en memoria
+# donde podemos almacenar información.
+# -----------------------------------------
+
+# Variable de tipo texto (str)
 nombre = "Ana"
 
-# Se crea una variable llamada 'edad' y se le asigna el texto "23"
-edad = "23"
+# Variable de tipo entero (int)
+edad = 23
 
-# Se imprimen en pantalla los valores de las variables 'nombre' y 'edad'
+# Mostrar el contenido de las variables
+print(nombre)
+print(edad)
+
+# También podemos imprimir varias variables
+# en una sola línea.
 print(nombre, edad)
