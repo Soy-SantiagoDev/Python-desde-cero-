@@ -1,27 +1,55 @@
 # =====================================
-# Operaciones básicas en Python
+# Operadores Matemáticos en Python
+# =====================================
+# Los operadores matemáticos permiten
+# realizar cálculos con números.
 # =====================================
 
+# -----------------------------
 # Suma
-print(5 + 3)          # Resultado: 8
+# -----------------------------
 
+print(5 + 3)
+
+# Resultado:
+# 8
+
+
+# -----------------------------
 # Resta
-print(10 - 4)         # Resultado: 6
+# -----------------------------
 
+print(10 - 4)
+
+# Resultado:
+# 6
+
+
+# -----------------------------
 # Multiplicación
-print(5 * 2)          # Resultado: 10
+# -----------------------------
 
+print(5 * 2)
+
+# Resultado:
+# 10
+
+
+# -----------------------------
 # División
-print(20 / 4)         # Resultado: 5.0
+# -----------------------------
+
+print(20 / 4)
+
+# Resultado:
+# 5.0
 
 
 # =====================================
-# Uso de variables
+# Operaciones utilizando variables
 # =====================================
 
-# Guardamos valores en variables
 precio = 100
 descuento = 20
 
-# Restamos el descuento al precio
-print(precio - descuento)   # Resultado: 80
+print(precio - descuento)
