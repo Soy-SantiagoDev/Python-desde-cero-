@@ -26,6 +26,7 @@ Al finalizar este capítulo podrás:
 | `Operadores.py` | Ejemplos de operadores matemáticos. |
 | `Ejercicios.py` | Ejercicios para practicar. |
 | `Soluciones.py` | Solución de los ejercicios. |
+| `DesafioFinal.py` | Supera este desafio. |
 
 ---
 
