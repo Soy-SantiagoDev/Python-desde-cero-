@@ -1,6 +1,15 @@
-bloqueo = input("¿El usuario está bloqueado? (si/no):")
+# =====================================
+# Operador lógico OR
+# =====================================
+# El operador OR permite que una de las
+# condiciones sea verdadera para ejecutar
+# el bloque de código.
+# =====================================
 
-if not bloqueo.lower() == "si":
-    print("Tienes acceso")
+experiencia = int(input("¿Cuántos años de experiencia tienes? "))
+titulo = input("¿Tienes título? (sí o no): ").lower()
+
+if experiencia >= 5 or titulo == "sí":
+    print("Puedes aplicar.")
 else:
-    print("No tienes acceso.")
+    print("No puedes aplicar.")
