@@ -1,18 +1,42 @@
+# =====================================
+# Proyecto 2
+# Menú Interactivo
+# =====================================
+# Este programa muestra un menú con
+# diferentes opciones.
+#
+# El ciclo while mantiene el programa
+# en ejecución hasta que el usuario
+# decide salir.
+# =====================================
+
+# Variable para almacenar la opción elegida.
+
 opcion = ""
 
-while opcion != "3":
-    print("\n=== MENU ===")
-    print("1. saludo")
-    print("2. mostrar mensaje")
-    print("3. salir")
+# Repetir mientras la opción sea diferente de 3.
 
-    opcion = input("selecciona una opcion: ")
+while opcion != "3":
+
+    print("\n=== MENÚ ===")
+    print("1. Saludo")
+    print("2. Mostrar mensaje")
+    print("3. Salir")
+
+    # Solicitar una opción.
+
+    opcion = input("Selecciona una opción: ")
+
+    # Evaluar la opción elegida.
 
     if opcion == "1":
-        print("hola, bienvenido")
+        print("¡Hola, bienvenido!")
+
     elif opcion == "2":
-        print("sigue practicando python")
+        print("Sigue practicando Python.")
+
     elif opcion == "3":
-        print("fin del programa")
+        print("Fin del programa.")
+
     else:
-        print("opcion no valida")
+        print("Opción no válida.")
