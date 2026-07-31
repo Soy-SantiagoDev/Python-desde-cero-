@@ -2,30 +2,32 @@
 
 # 🐍 Python Desde Cero
 
-### Aprende Python paso a paso, desde lo más básico hasta crear proyectos reales.
+### Aprende Python desde lo más básico hasta crear proyectos reales.
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-success?style=for-the-badge)
-![Actualizaciones](https://img.shields.io/badge/Actualizado-Diariamente-blue?style=for-the-badge)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
+![Curso](https://img.shields.io/badge/Curso-100%25%20Gratuito-blue?style=for-the-badge)
+![Actualizado](https://img.shields.io/badge/Actualizado-Diariamente-orange?style=for-the-badge)
 
-⭐ **Si este repositorio te ayuda, no olvides dejar una estrella.**
+⭐ **Si este proyecto te ayuda, deja una estrella al repositorio.**
 
 </div>
 
 ---
 
-# 📖 Sobre el curso
+# 📖 Bienvenido
 
-Este repositorio está diseñado para personas que quieren aprender **Python desde cero**, sin necesidad de conocimientos previos.
+Bienvenido a **Python Desde Cero**, un curso gratuito pensado para cualquier persona que quiera aprender programación desde cero.
 
-Aprenderás mediante:
+Aquí encontrarás:
 
 - 📚 Explicaciones sencillas
 - 💻 Ejemplos prácticos
 - 🧠 Ejercicios
 - 🚀 Mini proyectos
-- 🎯 Retos para practicar
+- 🎯 Retos
+
+Todo el contenido sigue un orden progresivo para que avances paso a paso.
 
 ---
 
@@ -33,37 +35,38 @@ Aprenderás mediante:
 
 | Estado | Tema |
 |:------:|------|
-| ✅ | Variables |
-| ✅ | Operadores |
-| ✅ | Entrada de datos (`input`) |
-| ✅ | Condicionales (`if`, `elif`, `else`) |
-| ✅ | Bucles `while` |
-| ✅ | Bucles `for` |
+| ✅ | **[🚀 Hello World y Variables](./01_Hello_World_y_Variables/)** |
+| ⬜ | Operadores |
+| ⬜ | Input |
+| ⬜ | Condicionales |
+| ⬜ | While |
+| ⬜ | For |
 | ⬜ | Funciones |
 | ⬜ | Listas |
 | ⬜ | Tuplas |
 | ⬜ | Diccionarios |
 | ⬜ | Sets |
-| ⬜ | Manejo de Archivos |
-| ⬜ | Manejo de Errores |
+| ⬜ | Archivos |
+| ⬜ | Manejo de errores |
 | ⬜ | Módulos |
-| ⬜ | Programación Orientada a Objetos (POO) |
+| ⬜ | Programación Orientada a Objetos |
 | ⬜ | APIs |
-| ⬜ | SQL con Python |
+| ⬜ | SQL |
 | ⬜ | Proyectos Finales |
 
 ---
 
 # 🎯 ¿Qué aprenderás?
 
-- ✅ Entender la sintaxis de Python
-- ✅ Resolver problemas con programación
-- ✅ Pensar como un desarrollador
-- ✅ Crear programas útiles
+- ✅ Sintaxis de Python
+- ✅ Variables y tipos de datos
+- ✅ Resolver problemas
+- ✅ Pensar como programador
 - ✅ Automatizar tareas
+- ✅ Crear programas reales
 - ✅ Trabajar con archivos
 - ✅ Consumir APIs
-- ✅ Desarrollar proyectos reales
+- ✅ Crear proyectos completos
 
 ---
 
@@ -71,44 +74,25 @@ Aprenderás mediante:
 
 - 🐍 Python **3.12 o superior**
 - 💻 Visual Studio Code
-- 🔥 Muchas ganas de aprender
+- 📖 Muchas ganas de aprender
 
 ---
 
-# 📂 Estructura del repositorio
+# 🚀 Comenzar
 
-```text
-Python-desde-cero/
-│
-├── 01-Variables
-├── 02-Operadores
-├── 03-Input
-├── 04-Condicionales
-├── 05-While
-├── 06-For
-├── 07-Funciones
-├── 08-Listas
-├── ...
-└── Proyectos
-```
-
----
-
-# 🚀 Cómo usar este repositorio
-
-## 1. Clona el repositorio
+Clona el repositorio.
 
 ```bash
 git clone https://github.com/Soy-SantiagoDev/Python-desde-cero-.git
 ```
 
-## 2. Entra a la carpeta
+Entra al proyecto.
 
 ```bash
 cd Python-desde-cero-
 ```
 
-## 3. Abre el proyecto en VS Code
+Abre Visual Studio Code.
 
 ```bash
 code .
@@ -116,24 +100,37 @@ code .
 
 ---
 
-# 💡 Recomendación
+# 📂 Estructura
 
-Sigue el orden de las carpetas para aprovechar mejor el aprendizaje.
+```text
+Python-desde-cero/
+│
+├── 📁 01_Hello_World_y_Variables
+├── 📁 02_Operadores
+├── 📁 03_Input
+├── 📁 04_Condicionales
+├── 📁 05_While
+├── 📁 06_For
+├── 📁 ...
+└── 📁 Proyectos
+```
 
-Cada tema incluye:
+---
 
-- 📖 Explicación
-- 💻 Ejemplos
-- 🧩 Ejercicios
-- 🚀 Retos
+# ⭐ Progreso del curso
+
+```
+🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜
+10% Completado
+```
 
 ---
 
 # 🤝 Contribuciones
 
-¿Encontraste un error o quieres mejorar el curso?
+Si encuentras un error o quieres mejorar el contenido, puedes abrir un **Issue** o enviar una **Pull Request**.
 
-¡Las **Pull Requests** y **Issues** son bienvenidos!
+Toda ayuda es bienvenida.
 
 ---
 
@@ -141,18 +138,20 @@ Cada tema incluye:
 
 Si este curso te está ayudando:
 
-🌟 Dale una **estrella** al repositorio.
-
-Comparte el proyecto con otras personas que quieran aprender Python.
+- ⭐ Dale una estrella al repositorio.
+- 🍴 Haz un Fork.
+- 📢 Compártelo con otras personas.
 
 ---
 
 <div align="center">
 
-## 🚀 ¡Comencemos a programar!
+# 🚀 ¡Comencemos!
 
-**El mejor momento para aprender Python es hoy.**
+### 👇 Haz clic aquí para empezar el curso
 
-🐍 Happy Coding
+# **➡️ [01. Hello World y Variables](./01_Hello_World_y_Variables/) ⬅️**
+
+**Happy Coding 🐍💙**
 
 </div>
