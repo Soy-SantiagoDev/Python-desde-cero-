@@ -1,8 +1,8 @@
-# 🔀 Capítulo 7 - Operador Lógico `or`
+# 🚫 Capítulo 8 - Operador Lógico `not`
 
-En este capítulo aprenderás a utilizar el operador lógico `or`.
+En este capítulo aprenderás a utilizar el operador lógico `not`.
 
-A diferencia de `and`, el operador `or` solo necesita que **una de las condiciones sea verdadera** para ejecutar un bloque de código.
+Este operador permite invertir el resultado de una condición. Si una condición es verdadera, `not` la convierte en falsa. Si una condición es falsa, `not` la convierte en verdadera.
 
 ---
 
@@ -10,10 +10,10 @@ A diferencia de `and`, el operador `or` solo necesita que **una de las condicion
 
 Al finalizar este capítulo podrás:
 
-- ✅ Comprender cómo funciona el operador `or`.
-- ✅ Combinar varias condiciones.
-- ✅ Crear programas con diferentes alternativas.
-- ✅ Utilizar `or` junto con `if`.
+- ✅ Comprender cómo funciona el operador `not`.
+- ✅ Invertir el resultado de una condición.
+- ✅ Utilizar `not` junto con `if`.
+- ✅ Crear programas con validaciones simples.
 
 ---
 
@@ -21,57 +21,56 @@ Al finalizar este capítulo podrás:
 
 | Archivo | Descripción |
 |---------|-------------|
-| `operador.py` | Introducción al operador `or`. |
+| `operador.py` | Introducción al operador `not`. |
 | `Ejercicios.py` | Ejercicios para practicar. |
 | `Soluciones.py` | Solución de los ejercicios. |
-| `DesafioFinal.py` | Reto para aplicar lo aprendido. |
+| `DesafioFinal.py` | Reto para reforzar lo aprendido. |
 
 ---
 
-# 🤔 ¿Qué hace el operador `or`?
+# 🤔 ¿Qué hace el operador `not`?
 
-El operador `or` une dos o más condiciones.
+El operador `not` invierte el resultado de una condición.
 
-Basta con que **una de ellas sea verdadera** para que el resultado sea verdadero.
+Si una condición es verdadera, `not` la convierte en falsa.
+
+Si una condición es falsa, `not` la convierte en verdadera.
 
 ---
 
 # 💻 Ejemplo
 
 ```python
-experiencia = int(input("¿Cuántos años de experiencia tienes? "))
-titulo = input("¿Tienes título? (sí o no): ").lower()
+bloqueo = input("¿El usuario está bloqueado? (si/no): ")
 
-if experiencia >= 5 or titulo == "sí":
-    print("Puedes aplicar.")
+if not bloqueo.lower() == "si":
+    print("Tienes acceso.")
 else:
-    print("No puedes aplicar.")
+    print("No tienes acceso.")
 ```
 
-En este ejemplo, una persona puede aplicar si:
+En este ejemplo:
 
-- Tiene **5 años o más de experiencia**, **o**
-- Tiene un **título profesional**.
-
-No es necesario cumplir ambas condiciones.
+- Si el usuario responde **"si"**, significa que está bloqueado y no podrá acceder.
+- Si responde **"no"**, podrá ingresar al sistema.
 
 ---
 
-# 📌 ¿Cuándo utilizar `or`?
+# 📌 ¿Cuándo utilizar `not`?
 
-Utiliza `or` cuando exista más de una forma de cumplir un requisito.
+Utiliza `not` cuando necesites comprobar que una condición **no** se cumpla.
 
 Ejemplos:
 
-- Tener experiencia o un título.
-- Ser menor de 18 o mayor de 60.
-- Tener descuento o ser cliente VIP.
+- El usuario no está bloqueado.
+- El producto no está agotado.
+- El archivo no existe.
 
 ---
 
 # 💻 Ejercicios
 
-Resuelve primero los ejercicios y luego revisa las soluciones.
+Resuelve primero los ejercicios por tu cuenta y luego revisa las soluciones.
 
 ---
 
@@ -79,15 +78,15 @@ Resuelve primero los ejercicios y luego revisa las soluciones.
 
 En este capítulo aprendiste:
 
-- ✔ Qué es el operador lógico `or`.
-- ✔ Cómo combinar condiciones.
-- ✔ Cómo utilizar `or` en estructuras `if`.
+- ✔ Cómo funciona el operador `not`.
+- ✔ Cómo invertir una condición.
+- ✔ Cómo utilizar `not` en estructuras `if`.
 
 ---
 
 # 🚀 Siguiente capítulo
 
-En el siguiente capítulo aprenderás el operador lógico `not`.
+En el siguiente capítulo aprenderás a utilizar condicionales con múltiples opciones mediante `elif`.
 
 ---
 
