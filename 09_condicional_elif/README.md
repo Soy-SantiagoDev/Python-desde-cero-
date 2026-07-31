@@ -87,7 +87,18 @@ En este capítulo aprendiste:
 
 # 🚀 Siguiente capítulo
 
-En el siguiente capítulo aprenderás a utilizar condicionales anidadas.
+En el siguiente capítulo pondrás en práctica todo lo aprendido hasta ahora creando un proyecto: una **Calculadora de Índice de Masa Corporal (IMC)**.
+
+En este proyecto utilizarás:
+
+- ✔ Variables
+- ✔ `input()`
+- ✔ Operadores matemáticos
+- ✔ Comparadores
+- ✔ Operadores lógicos
+- ✔ `if`, `elif` y `else`
+
+Será tu primer programa completo, donde aplicarás todos los conocimientos adquiridos en los capítulos anteriores.
 
 ---
 
