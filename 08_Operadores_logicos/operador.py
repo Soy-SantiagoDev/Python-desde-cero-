@@ -1,15 +1,23 @@
 # =====================================
-# Operador lógico OR
+# Operador Lógico NOT
 # =====================================
-# El operador OR permite que una de las
-# condiciones sea verdadera para ejecutar
-# el bloque de código.
+# El operador lógico NOT invierte
+# el resultado de una condición.
+#
+# Si la condición es verdadera,
+# NOT la convierte en falsa.
+#
+# Si la condición es falsa,
+# NOT la convierte en verdadera.
 # =====================================
 
-experiencia = int(input("¿Cuántos años de experiencia tienes? "))
-titulo = input("¿Tienes título? (sí o no): ").lower()
+# Preguntar si el usuario está bloqueado.
 
-if experiencia >= 5 or titulo == "sí":
-    print("Puedes aplicar.")
+bloqueo = input("¿El usuario está bloqueado? (si/no): ")
+
+# Verificar que el usuario NO esté bloqueado.
+
+if not bloqueo.lower() == "si":
+    print("Tienes acceso.")
 else:
-    print("No puedes aplicar.")
+    print("No tienes acceso.")
