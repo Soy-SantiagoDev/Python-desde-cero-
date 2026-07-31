@@ -31,28 +31,44 @@ Todo el contenido sigue un orden progresivo para que avances paso a paso.
 
 ---
 
-# 📚 Temario
+# 🗺️ Ruta de aprendizaje
 
-| Estado | Tema |
-|:------:|------|
-| ✅ | **[🚀 Hello World y Variables](./01_Hello_World_y_Variables/)** |
-| ⬜ | Operadores |
-| ⬜ | Input |
-| ⬜ | Condicionales |
-| ⬜ | While |
-| ⬜ | For |
-| ⬜ | Funciones |
-| ⬜ | Listas |
-| ⬜ | Tuplas |
-| ⬜ | Diccionarios |
-| ⬜ | Sets |
-| ⬜ | Archivos |
-| ⬜ | Manejo de errores |
-| ⬜ | Módulos |
-| ⬜ | Programación Orientada a Objetos |
-| ⬜ | APIs |
-| ⬜ | SQL |
-| ⬜ | Proyectos Finales |
+> 💡 Haz clic en cualquier tema para ir directamente a su carpeta.
+
+| Día | Estado | Tema |
+|:--:|:--:|------|
+| 01 | ✅ | [🚀 Hello World y Variables](./01_Hello_World_y_Variables/) |
+| 02 | ✅ | [🧮 Operadores Matemáticos](./02_Operadores_Matematicos/) |
+| 03 | ✅ | [⌨️ Input y Tipos de Datos](./03_Input_y_datos/) |
+| 04 | ✅ | [🔀 Condicionales (`if` y `else`)](./04_Condicionales_if_else/) |
+| 05 | ✅ | [⚖️ Comparadores y Condiciones](./05_Comparadores_y_Condiciones/) |
+| 06 | ✅ | [🔗 Operadores Lógicos (AND)](./06_Operadores_logicos/) |
+| 07 | ✅ | [🔗 Operadores Lógicos (OR)](./07_Operadores_logicos/) |
+| 08 | ✅ | [🔗 Operadores Lógicos (NOT)](./08_Operadores_logicos/) |
+| 09 | ✅ | [🌿 Condicional `elif`](./09_condicional_elif/) |
+| 10 | ✅ | [🧮 Proyecto: Calculadora IMC](./10_Calculadora_IMC/) |
+| 11 | ✅ | [🔄 Ciclo `while`](./11_Ciclo_While/) |
+| 12 | ✅ | [📋 Proyecto: Menú con `while`](./12_Menu_while/) |
+| 13 | ✅ | [🛑 Sentencia `break`](./13_Break/) |
+| 14 | ✅ | [⏭️ Sentencia `continue`](./14_Continue/) |
+| 15 | ⬜ | Ciclo `for` |
+| 16 | ⬜ | Función `range()` |
+| 17 | ⬜ | Listas |
+| 18 | ⬜ | Proyecto: Lista de Compras |
+| 19 | ⬜ | Proyecto: Calculadora Sencilla |
+| 20 | ⬜ | Funciones con y sin Parámetros |
+| 21 | ⬜ | Funciones con `return` y Parámetros |
+| 22 | ⬜ | Tuplas |
+| 23 | ⬜ | Diccionarios |
+| 24 | ⬜ | Sets |
+| 25 | ⬜ | Cadenas de Texto |
+| 26 | ⬜ | Manejo de Archivos |
+| 27 | ⬜ | Manejo de Errores |
+| 28 | ⬜ | Módulos |
+| 29 | ⬜ | Programación Orientada a Objetos |
+| 30 | ⬜ | APIs con Python |
+| 31 | ⬜ | SQL con Python |
+| 32 | ⬜ | Proyecto Final |
 
 ---
 
