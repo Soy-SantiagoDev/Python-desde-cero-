@@ -1,157 +1,143 @@
-<div align="center">
+# 🐍 Capítulo 1 - Hola Mundo y Variables
 
-# 🐍 Python Desde Cero
+¡Bienvenido al primer capítulo de **Python Desde Cero**! 🎉
 
-### Aprende Python desde lo más básico hasta crear proyectos reales.
-
-![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-success?style=for-the-badge)
-![Curso](https://img.shields.io/badge/Curso-100%25%20Gratuito-blue?style=for-the-badge)
-![Actualizado](https://img.shields.io/badge/Actualizado-Diariamente-orange?style=for-the-badge)
-
-⭐ **Si este proyecto te ayuda, deja una estrella al repositorio.**
-
-</div>
+En esta lección aprenderás a crear tu primer programa en Python y conocerás uno de los conceptos más importantes de cualquier lenguaje de programación: **las variables**.
 
 ---
 
-# 📖 Bienvenido
+# 📚 Objetivos
 
-Bienvenido a **Python Desde Cero**, un curso gratuito pensado para cualquier persona que quiera aprender programación desde cero.
+Al finalizar este capítulo serás capaz de:
 
-Aquí encontrarás:
-
-- 📚 Explicaciones sencillas
-- 💻 Ejemplos prácticos
-- 🧠 Ejercicios
-- 🚀 Mini proyectos
-- 🎯 Retos
-
-Todo el contenido sigue un orden progresivo para que avances paso a paso.
+- ✅ Ejecutar tu primer programa en Python.
+- ✅ Utilizar la función `print()`.
+- ✅ Comprender qué es una variable.
+- ✅ Guardar información en memoria.
+- ✅ Mostrar datos en la consola.
 
 ---
 
-# 📚 Temario
+# 📂 Archivos del capítulo
 
-| Estado | Tema |
-|:------:|------|
-| ✅ | **[🚀 Hello World y Variables](./01_Hello_World_y_Variables/)** |
-| ⬜ | Operadores |
-| ⬜ | Input |
-| ⬜ | Condicionales |
-| ⬜ | While |
-| ⬜ | For |
-| ⬜ | Funciones |
-| ⬜ | Listas |
-| ⬜ | Tuplas |
-| ⬜ | Diccionarios |
-| ⬜ | Sets |
-| ⬜ | Archivos |
-| ⬜ | Manejo de errores |
-| ⬜ | Módulos |
-| ⬜ | Programación Orientada a Objetos |
-| ⬜ | APIs |
-| ⬜ | SQL |
-| ⬜ | Proyectos Finales |
+| Archivo | Descripción |
+|---------|-------------|
+| `HolaMundo.py` | Tu primer programa en Python. |
+| `Variables.py` | Aprende a crear y utilizar variables. |
+| `Ejercicios.py` | Pon en práctica lo aprendido. |
+| `Soluciones.py` | Solución de los ejercicios propuestos. |
 
 ---
 
-# 🎯 ¿Qué aprenderás?
+# 🤔 ¿Qué es Python?
 
-- ✅ Sintaxis de Python
-- ✅ Variables y tipos de datos
-- ✅ Resolver problemas
-- ✅ Pensar como programador
-- ✅ Automatizar tareas
-- ✅ Crear programas reales
-- ✅ Trabajar con archivos
-- ✅ Consumir APIs
-- ✅ Crear proyectos completos
+Python es un lenguaje de programación creado para ser sencillo de aprender y muy potente.
 
----
+Actualmente se utiliza para desarrollar:
 
-# 🛠 Requisitos
+- 🌐 Aplicaciones web
+- 🤖 Inteligencia Artificial
+- 📊 Ciencia de Datos
+- 📱 Automatización
+- 🎮 Videojuegos
+- ☁️ Computación en la nube
 
-- 🐍 Python **3.12 o superior**
-- 💻 Visual Studio Code
-- 📖 Muchas ganas de aprender
+Gracias a su sintaxis clara, es uno de los mejores lenguajes para comenzar a programar.
 
 ---
 
-# 🚀 Comenzar
+# 👋 Hola Mundo
 
-Clona el repositorio.
+El primer programa que suele escribir cualquier programador es el famoso **Hola Mundo**.
 
-```bash
-git clone https://github.com/Soy-SantiagoDev/Python-desde-cero-.git
+```python
+print("¡Hola Mundo!")
 ```
 
-Entra al proyecto.
+Salida:
 
-```bash
-cd Python-desde-cero-
+```
+¡Hola Mundo!
 ```
 
-Abre Visual Studio Code.
-
-```bash
-code .
-```
+La función `print()` permite mostrar información en la consola.
 
 ---
 
-# 📂 Estructura
+# 📦 Variables
 
-```text
-Python-desde-cero/
-│
-├── 📁 01_Hello_World_y_Variables
-├── 📁 02_Operadores
-├── 📁 03_Input
-├── 📁 04_Condicionales
-├── 📁 05_While
-├── 📁 06_For
-├── 📁 ...
-└── 📁 Proyectos
+Una variable es un espacio en memoria donde almacenamos información para utilizarla más adelante.
+
+Ejemplo:
+
+```python
+nombre = "Ana"
+edad = 23
+```
+
+Después podemos utilizar esas variables cuando queramos.
+
+```python
+print(nombre)
+print(edad)
+```
+
+Salida
+
+```
+Ana
+23
+```
+
+También podemos imprimir varias variables.
+
+```python
+print(nombre, edad)
+```
+
+Resultado
+
+```
+Ana 23
 ```
 
 ---
 
-# ⭐ Progreso del curso
+# 📚 Tipos de datos utilizados
 
-```
-🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜
-10% Completado
-```
-
----
-
-# 🤝 Contribuciones
-
-Si encuentras un error o quieres mejorar el contenido, puedes abrir un **Issue** o enviar una **Pull Request**.
-
-Toda ayuda es bienvenida.
+| Tipo | Ejemplo |
+|------|----------|
+| Texto (`str`) | `"Python"` |
+| Entero (`int`) | `25` |
+| Decimal (`float`) | `3.14` |
+| Booleano (`bool`) | `True` |
 
 ---
 
-# ⭐ Apoya el proyecto
+# 💻 Ejercicios
 
-Si este curso te está ayudando:
+En el archivo **Ejercicios.py** encontrarás actividades para practicar.
 
-- ⭐ Dale una estrella al repositorio.
-- 🍴 Haz un Fork.
-- 📢 Compártelo con otras personas.
+Intenta resolverlas antes de abrir el archivo **Soluciones.py**.
 
 ---
 
-<div align="center">
+# 🎯 Lo aprendido
 
-# 🚀 ¡Comencemos!
+En este capítulo aprendiste:
 
-### 👇 Haz clic aquí para empezar el curso
+- ✔ Cómo ejecutar un programa.
+- ✔ Cómo usar `print()`.
+- ✔ Qué es una variable.
+- ✔ Cómo guardar información.
+- ✔ Los tipos de datos básicos.
 
-# **➡️ [01. Hello World y Variables](./01_Hello_World_y_Variables/) ⬅️**
+---
 
-**Happy Coding 🐍💙**
+# 🚀 Siguiente capítulo
 
-</div>
+En el siguiente capítulo aprenderás a realizar operaciones matemáticas utilizando Python.
+
+---
+
+⭐ Si este repositorio te está ayudando, considera darle una estrella en GitHub.
