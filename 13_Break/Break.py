@@ -1,9 +1,27 @@
+# =====================================
+# Instrucción BREAK
+# =====================================
+# La instrucción break permite salir
+# inmediatamente de un ciclo.
+#
+# Cuando Python encuentra break,
+# el ciclo termina.
+# =====================================
+
+# Repetir el ciclo indefinidamente.
+
 while True:
 
-    palabra = input("Escribe la palabra salir para terminar ")
+    # Solicitar una palabra.
+
+    palabra = input("Escribe la palabra salir para terminar: ")
+
+    # Verificar si el usuario desea salir.
 
     if palabra == "salir":
-        print("programa finalizado")
+        print("Programa finalizado.")
         break
 
-    print("Escribiste la palabra", palabra)
+    # Mostrar la palabra ingresada.
+
+    print("Escribiste la palabra:", palabra)
