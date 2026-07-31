@@ -85,7 +85,19 @@ En este capítulo aprendiste:
 
 # 🚀 Siguiente capítulo
 
-En el siguiente capítulo aprenderás a utilizar `break` para salir de un ciclo antes de que termine.
+En el siguiente capítulo pondrás en práctica todo lo aprendido sobre el ciclo `while` creando un **Menú Interactivo**.
+
+En este proyecto utilizarás:
+
+- ✔ Variables
+- ✔ `input()`
+- ✔ `while`
+- ✔ Comparadores
+- ✔ `if`
+- ✔ `elif`
+- ✔ `else`
+
+Aprenderás a mantener un programa en ejecución hasta que el usuario decida salir, simulando el funcionamiento de muchos programas reales.
 
 ---
 
